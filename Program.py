@@ -15,3 +15,16 @@ print(person_1.age)
 print(person_2.name)
 print(person_5.age)
 print(person_6.name)
+
+
+from customer import Customer
+
+def main():
+    # Create a shop
+    shop = Shop("Tech Store")
+
+    # Create and add customers
+    customer1 = Customer("Alice", 30, "C001")
+    customer2 = Customer("Bob", 24, "C002")
+  
+
