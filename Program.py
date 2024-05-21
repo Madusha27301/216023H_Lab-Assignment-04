@@ -18,6 +18,8 @@ print(person_6.name)
 
 
 from customer import Customer
+from employee import Employee
+
 
 def main():
     # Create a shop
@@ -28,3 +30,6 @@ def main():
     customer2 = Customer("Bob", 24, "C002")
   
 
+    # Create and add employees
+    employee1 = Employee("Charlie", 28, "E001", "Manager")
+    employee2 = Employee("Diana", 22, "E002", "Sales Assistant")
