@@ -17,10 +17,13 @@ print(person_5.age)
 print(person_6.name)
 
 
+
+
+
 from customer import Customer
 from employee import Employee
 from shop import Shop
-
+from product import Product
 
 def main():
     # Create a shop
@@ -38,3 +41,12 @@ def main():
     employee2 = Employee("Diana", 22, "E002", "Sales Assistant")
     shop.add_employee(employee1)
     shop.add_employee(employee2)
+
+    # Create and add products
+    product1 = Product("Laptop", 999.99, 10)
+    product2 = Product("Smartphone", 699.99, 15)
+    shop.add_product(product1)
+    shop.add_product(product2)
+
+    # Print shop details
+    print(shop)
