@@ -8,3 +8,6 @@ person_1 = Person("Kasun",19)
 person_2 = Person("Supun",35)
 person_3 = Person("Nimal",28)
 
+
+print(person_1.age)
+print(person_2.name)
